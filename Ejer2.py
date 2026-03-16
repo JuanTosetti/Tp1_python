@@ -5,9 +5,9 @@
 segundos_ingresados = int(input("Ingresa una cantidad de segundos: "))
 
 seg = segundos_ingresados
-min = int(seg / 60)
+minutos = int(seg / 60)
 seg = segundos_ingresados % 60
-hora = int(min / 60)
-min = min % 60
+hora = int(minutos / 60)
+minutos = minutos % 60
 
-print(f"{hora} horas {min} minutos y {seg} segundos")
+print(f"{hora} horas {minutos} minutos y {seg} segundos")
