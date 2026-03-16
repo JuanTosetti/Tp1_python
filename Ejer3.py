@@ -3,5 +3,5 @@
 
 number = int(input("Ingrese un numero: "))
 
-for n in range(10):
-    print(f"{number} x {n+1} = {(n+1)* number}")
+for n in range(1,11):
+    print(f"{number} x {n} = {(n)* number}")
