@@ -3,6 +3,11 @@
 
 number = int(input("Ingresa un numero: "))
 
-for i in range(1,number):
+for i in range(1,number + 1):
     if (i % 5 != 0):
         print(i)
+
+for i in range(1, number + 1): #Ahora el rango va air tambien hasta el numero ingresado
+    if(i % 5 == 0):
+        continue
+    print(i)
