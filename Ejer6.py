@@ -10,7 +10,7 @@ for i in range(1, number + 1):
     if i % 5 == 0:
         multiplos_cinco.append(i)
     else:
-        otros_numeros.append(i)
+    otros_numeros.append(i)
 
 print("IMPRESION DE LISTAS ------------")
 print(f"Multiplos de 5: {multiplos_cinco}")
